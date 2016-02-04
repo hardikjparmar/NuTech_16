@@ -1,0 +1,331 @@
+/*
+#------------------------------------------------------------------------
+# Mo - January Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+body {
+	font-size: 14px;
+}
+
+
+#zDropdown-header .logo {
+left: 60px;
+}
+.secondpage .logo {
+  left: 60px;
+}
+.menutext {
+right: 60px;
+}
+.menutext_up {
+right: 60px;  
+}
+
+#gkMainMenu .menu {	display: none;}
+#zDropdown-header .menu {display: none;}
+
+#static-aside-menu-toggler,
+#static-aside-menu-toggler.active {
+	/*display: none!important;
+	opacity: 0!important;*/
+}
+
+#aside-menu-toggler {
+
+}
+
+.menutext_up_secondpage {
+  right: 60px;
+  top: 20px;
+}
+/* Containers */
+#gkContent, 
+#gkSidebar {
+	width: 100% !important;
+}
+#gkSidebar .box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px!important;
+}
+#gkSidebar {
+	padding: 0!important;
+}
+
+#gkSidebar .box:first-child {
+	padding-top: 10px!important;
+}
+#gkSidebar .box {
+	border-top: none!important;
+	float: left;
+	margin-top: 0!important;
+	margin-bottom: 30px!important;
+	width: 50%;
+}
+#gkSidebar.gkOnlyOne .box {
+	width: 100%!important;
+}
+#gkSidebar .box:nth-child(2n+1) {
+	clear: both!important;
+}
+
+/* Limitation suffixes */
+.onlydesktop {
+	display: none!important;
+}
+.notablet {
+	display: none!important;
+}
+.nomobile {
+	display: block!important;
+}
+.onlytablet {
+	display: block!important;
+}
+.onlymobile {
+	display: none!important;
+}
+.box.notablet.nomobile {
+	display: none!important;
+}
+
+/* Fix for the contact page */
+.contact .contact-image {
+	float: left !important;
+}
+.contact .contact-address {
+	clear: both !important;
+	padding-top: 20px !important;
+}
+.contact .contact-form input[type="text"],
+.contact .contact-form input[type="email"],
+.contact .contact-form textarea {
+	width: 95% !important;
+}
+
+/* K2 edit popup */
+#sbox-window,
+#sbox-window iframe {
+	width: 720px!important;
+	max-width: 720px!important;
+	left: 10px!important;
+}
+
+/* menu */
+#gkMobileMenu {
+	color: #fff;
+	display: block!important;
+	float: right;
+	font-size: 32px;
+	height: 44px;
+	line-height: 44px;
+	margin: 20px 0 0 20px!important;
+	overflow: hidden;
+	position: relative;
+	width: 60px;
+}
+#gkMobileMenu > i {
+	color: #fff;
+}
+#gkExtraMenu {
+	display: none!important;
+}
+#gkMainMenu {
+	display: block;
+}
+#gkMobileMenu select {
+	display: block;
+	width: 44px!important;
+	height: 44px!important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	position: absolute!important;
+	left: 0;
+	top: 0;
+}
+body[data-mobile="true"] #gkMobileMenu select {
+	font-size: 50px;
+}
+
+/* top/bottom modules */
+
+/* 4-column layout */
+body .gkCols4 .box.gkmod-1 {
+	width: 100%;	
+}
+body .gkCols4 .box.gkmod-2 {
+	width: 50%;
+}
+body .gkCols4 .box.gkmod-3 {
+	width: 50%;
+}
+body .gkCols4 .box.gkmod-4,
+body .gkCols4 .box.gkmod-more {
+	width: 50%;
+}
+body .gkCols4 .box:nth-child(2n+1) {
+	clear: both;
+}
+body .gkCols4 .box.gkmod-more.gkmod-last-1:last-child {
+	width: 100%!important;
+}
+body .gkCols4 .box.gkmod-more.gkmod-last-2:last-child,
+body .gkCols4 .box.gkmod-more.gkmod-last-2:nth-last-child(2) {
+	width: 50%!important;
+}
+body .gkCols4 .box.gkmod-more.gkmod-last-3:last-child,
+body .gkCols4 .box.gkmod-more.gkmod-last-3:nth-last-child(2),
+body .gkCols4 .box.gkmod-more.gkmod-last-3:nth-last-child(3) {
+	width: 50%!important;
+}
+
+/* 6-column layout */
+body .gkCols6 .box.gkmod-1 {
+	width: 100%;	
+}
+body .gkCols6 .box.gkmod-2 {
+	width: 50%;
+}
+body .gkCols6 .box.gkmod-3 {
+	width: 33.3%;
+}
+body .gkCols6 .box.gkmod-4,
+body .gkCols6 .box.gkmod-more {
+	width: 50%;
+}
+body .gkCols6 .box.gkmod-5,
+body .gkCols6 .box.gkmod-more {
+	width: 33.3%;
+}
+body .gkCols6 .box.gkmod-6,
+body .gkCols6 .box.gkmod-more {
+	width: 50%;
+}
+body .gkCols6 .gkmod-2.box:nth-child(2n+1),
+body .gkCols6 .gkmod-4.box:nth-child(2n+1),
+body .gkCols6 .gkmod-6.box:nth-child(2n+1) {
+	clear: both;
+}
+body .gkCols6 .gkmod-3.box:nth-child(3n+1),
+body .gkCols6 .gkmod-5.box:nth-child(3n+1) {
+	clear: both;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-1:last-child {
+	width: 100%!important;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-2:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-2:nth-last-child(2) {
+	width: 50%!important;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-3:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-3:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-3:nth-last-child(3) {
+	width: 33.3%!important;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-4:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(3),
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(4) {
+	width: 50%!important;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-5:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(3),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(4),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(5) {
+	width: 50%!important;
+}
+
+.items-row > div {
+	margin-bottom: 50px;
+	padding: 0!important;
+}
+.single-item .itemDate + header {
+	margin: 0 0 56px 150px;
+}
+
+/* Frontpage content */
+.custom.gk-header1,
+.custom.gk-header2,
+.custom.gk-header3 {
+	padding-top: 200px;
+}
+.gk-header1 h1 {
+	font-size: 36px;
+}
+.custom.gk-header1 .gk-tablet {
+	height: 432px;
+	width: 300px;
+	margin: 0px 0 -56px 0;
+}
+.gkLogo,
+.has-header .gkLogo {
+	top: 5px;
+}
+.box.big-title h3, 
+.box.big-title > .header {
+	font-size: 30px!important;
+}
+.gkCols {
+	margin: 0 -20px;
+}
+.gkCols > div, 
+.gkCols > blockquote {
+	padding: 0 20px;
+}
+.gk-point h4 {
+	font-size: 14px;
+}
+.gkCols[data-cols="4"] > div, 
+.gkCols[data-cols="4"] > blockquote {
+	padding: 0 10px;
+}
+.gkCols[data-cols="4"], .gkCols[data-cols="5"] {
+	margin: 0 -10px;
+}
+.box.image-left .image-left > img {
+	max-width: 40%;
+}
+.box.image-left .image-left > div {
+	margin-top: 0px;
+}
+.gk-list {
+	width: 320px;
+}
+.testimonials > blockquote > p {
+	font-size: 13px;
+	padding: 16px;
+}
+.box.newsletter p {
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+}
+.box.newsletter form {
+	float: none;
+	margin: 30px auto 0 auto;
+	width: 360px;
+}
+#gkFooterNav li {
+	clear: both;
+}
+#gkFooterNav li:first-child:before {
+	display: block;
+}
+
+/* Other */
+.gkPriceTable dl.gkPremium {
+	padding: 20px;
+}
+.gkPriceTable dl {
+	padding: 8px 20px;
+}
+.gkPriceTable dd.gkPrice {
+	font-size: 40px;
+}

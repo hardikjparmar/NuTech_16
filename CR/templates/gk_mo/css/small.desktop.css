@@ -1,0 +1,70 @@
+/*
+#------------------------------------------------------------------------
+# Mo - January Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+.custom.gk-header1,
+.custom.gk-header2,
+.custom.gk-header3,
+#gkPageContent,
+.frontpage #gkPageContent,
+#gkBottom1.gkSingleModule .box, 
+#gkBottom2.gkSingleModule .box, 
+#gkBottom3.gkSingleModule .box, 
+#gkBottom4.gkSingleModule .box, 
+#gkBottom5.gkSingleModule .box, 
+#gkBottom6.gkSingleModule .box, 
+#gkBottom7.gkSingleModule .box, 
+#gkBottom8.gkSingleModule .box,
+.box.newsletter,
+#gkFooter,
+#itemCommentsAnchor,
+.itemRelatedContent,
+#gkBreadcrumb,
+#gkBottom1,
+#gkBottom2,
+#gkBottom3,
+#gkBottom4,
+#gkBottom5,
+#gkBottom6,
+#gkBottom7,
+#gkBottom8 {
+padding-top: 0px;
+padding-bottom: 20px;
+padding-left: 30px;
+padding-right: 30px;
+/*	padding-left: 10px!important;
+	padding-right: 10px!important;*/
+}
+#gkTop1 .box.imagebg, 
+#gkTop2 .box.imagebg,
+#itemCommentsAnchor,
+.itemRelatedContent,
+#gkBottom1.gkSingleModule > div, 
+#gkBottom2.gkSingleModule > div, 
+#gkBottom3.gkSingleModule > div, 
+#gkBottom4.gkSingleModule > div, 
+#gkBottom5.gkSingleModule > div, 
+#gkBottom6.gkSingleModule > div, 
+#gkBottom7.gkSingleModule > div, 
+#gkBottom8.gkSingleModule > div {
+	margin-left: -60px!important;
+	margin-right: -60px!important;
+}
+.gkLogo,
+.has-header .gkLogo {
+	left: 60px;
+}
+.box.imagebg h3 {
+	font-size: 36px;
+	left: 60px;
+}
+
+#static-aside-menu-toggler.active {
+	right: 7px;
+}

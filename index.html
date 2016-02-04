@@ -1,17 +1,639 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    
-    
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- META DATA -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta charset="utf-8" />
+  <title>NU-Tech'16</title>
+  <meta name="description" content="Institute of Technology, Nirma Unviversity's Techfest governed by the NU-Tech Committee"/>
+  <meta name="keywords" content="Tech, Fest, Competitions, Contest"/>
+  <meta name="author" content="mailto:12bit061@nirmauni.ac.in"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+  <!-- THEME STYLESHEETS -->
+  <!--BootStrap Added-->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <!-- Optional: Include the jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- Optional: Incorporate the Bootstrap JavaScript plugins -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <!--/BootStrap-->
+
+  <link rel="stylesheet" media="all" href="css/reset.css" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,600,700' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" media="all" href="css/responsive.gs.12col.css" />
+  <link rel="stylesheet" media="all" href="css/jquery.maximage.css" />
+  <link rel="stylesheet" media="all" href="css/jquery.bxslider.css" />
+  <link rel="stylesheet" media="all" href="css/theme.css" />
+  <link rel="stylesheet" media="all" href="css/shortcodes.css" />
+  <link rel="stylesheet" media="all" href="css/responsive.css" />
+  <link rel="stylesheet" media="all" href="css/color.css" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
+        <!--[if lt IE 9]>
+        <link rel="stylesheet" media="all" href="css/ie-stylesheet.css" />
+        <![endif]-->
+
+
+        <!-- JAVASCRIPT PLUGINS -->
+        <script type="text/javascript" src="scripts/jquery.1.9.1.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+      <link rel="stylesheet" type="text/css" href="css/component1.css" />
+      <script src="scripts/modernizr-2.6.2.min.js"></script>
+        <style>
+     .scrollup {width:100px;height:100px;position:fixed;bottom: 15px;right:50px;display: none;text-indent:-9999px;
+			background: url('b2.gif');background-repeat: repeat-y;}
+    </style>
+    <script>
+    $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 300) {
+                    $('.scrollup').fadeIn();
+                } else {
+                    $('.scrollup').fadeOut();
+                }
+            });
+
+            $('.scrollup').click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 1500);
+                return false;
+            });
+    });
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59413013-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+    <body id="scroll">
+        <a href="#top" class="scrollup" onfocus="if(this.blur)this.blur()" style="z-index:9000"></a>
+     <div class="container">
+      <div id="page-preloader">
+       <div class="loader">
+        <img src="images/layout/a.gif" style="width:15%; margin-top:-100px;" alt="" />
+      </div>
+    </div>
+    <div id="loading-wrap" style="display: none;"><canvas id="loading" width="400" height="400"></canvas></div>
+    <!-- START PAGE WRAPPER -->
+    <div id="page-wrapper">
+     <!-- START BANNER SECTION -->
+     <section id="banner" class="section video-background" style="height: 100%; background-position: 50% 0px;">
+     <br/><br/>
+     <div style="padding-left:70%;z-index:1000;position: relative;"><a href="http://www.nu-tech.in/paper.html" target="_blank"><img src="paper.png" style="width:100%"></img></a></div>
+     <br/><br/>
+     <div style="padding-left:70%;z-index:1000;position: relative;"><a href="#" target="_blank"><img src="isrosite.png" style="width:50%"></img></a></div>
+     <br/><br/><br/><br/>
+     <!-- START ROW -->
+     <div style="position:absolute;margin-left:80%;bottom:30px;"><a href="Schedule_NUTECH2k15.pdf" target="_blank"><img style="width:75%" src="tensch.png"></img></a></div>
+     <div class="banner-container" style="top: 2%;">
+        <img src="images/layout/Untitled-1.png" style="width:14%;height:400px;" alt="NU-Tech" />
+      
+      <span class="small-text"  style="font-size: 18px;margin-top: -20px">
+        <br/>Official Tech-Fest of <b class="bold big-text"  style="font-size: 30px">Nirma<span class="color">University</span></b>
+        <div style="margin-top:1%;font-family: Vivaldi;text-transform: none;font-size: 40px">
+            Rays Of Action
+        </div>
+          <div style="margin-top: 1.5%">
+          <a href="http://twitter.com/NUTechOfficial" target="_blank" title="Twitter"><img src="images/menu/t.png" style="height: 55px; width: 55px;" /></a>
+          <a href="http://www.facebook.com/NUTECH13" target="_blank" title="Facebook"><img src="images/menu/f.png" style="height: 55px; width: 55px;" /></a>
+          <a href="https://play.google.com/store/apps/details?id=com.itnu.nutech" target="_blank" title="Android"><img src="images/menu/a.png" style="height: 55px; width: 55px;" /></a>
+          </div>
+      </span>
+   </div><!-- END ROW -->
+ <!-- START SCROLL DOWN BUTTON -->
+   <div class="scroll-down">
+    <a href="online_form.pdf" target="_blank">Register Here</a>
+  </div><!-- END SCROLL DOWN BUTTON -->
+
+ <!--  <video poster="videos/video-background-poster" autoplay loop muted __idm_id_="172033">
+       <source src="hyper-loop.mp4" type="video/mp4" />
+       Your browser does not support the video tag.
+      </video> -->
+
+  <!-- START MAXIMAGE SLIDER -->
+  <div id="maximage-slider">
+
+  </div><!-- END MAXIMAGE SLIDER -->
+</section><!-- END BANNER SECTION -->
+
+<style type="text/css">.button {
+  min-height: 1.5em;
+  display: inline-block;
+  padding: 12px 36px;
+  margin: 0px 5px 5px 0px;
+  cursor: pointer;
+  opacity: 0.9;
+
+  color: #FFF;
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-shadow: rgba(0,0,0,0.9) 0px 1px 2px;
+
+  background: #434343;
+  border: 1px solid #242424;
+
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(0,0,0,0.25) 0px 0px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+  -khtml-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(0,0,0,0.25) 0px 0px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+  -moz-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(0,0,0,0.25) 0px 0px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+  -o-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(0,0,0,0.25) 0px 0px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+  box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(0,0,0,0.25) 0px 0px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+  -webkit-transition: all 0.1s linear;
+  -khtml-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+.button:hover {
+  -webkit-box-shadow: rgba(0,0,0,0.5) 0px 2px 5px, inset rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(0,0,0,0.25) 0px 0px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+  -khtml-box-shadow: rgba(0,0,0,0.5) 0px 2px 5px, inset rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(0,0,0,0.25) 0px 0px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+  -moz-box-shadow: rgba(0,0,0,0.5) 0px 2px 5px, inset rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(0,0,0,0.25) 0px 0px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+  -o-box-shadow: rgba(0,0,0,0.5) 0px 2px 5px, inset rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(0,0,0,0.25) 0px 0px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+  box-shadow: rgba(0,0,0,0.5) 0px 2px 5px, inset rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(0,0,0,0.25) 0px 0px 0px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+}
+.button:active {
+  -webkit-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px,inset rgba(255,255,255,0) 0px 1px 0px, inset rgba(0,0,0,0.5) 0px 0px 5px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+  -khtml-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px,inset rgba(255,255,255,0) 0px 1px 0px, inset rgba(0,0,0,0.5) 0px 0px 5px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+  -moz-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0) 0px 1px 0px, inset rgba(0,0,0,0.5) 0px 0px 5px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+  -o-box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0) 0px 1px 0px, inset rgba(0,0,0,0.5) 0px 0px 5px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+  box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, inset rgba(255,255,255,0) 0px 1px 0px, inset rgba(0,0,0,0.5) 0px 0px 5px, inset rgba(255,255,255,0.03) 0px 20px 0px, inset rgba(0,0,0,0.15) 0px -20px 20px, inset rgba(255,255,255,0.05) 0px 20px 20px;
+}
+.shine {
+  display: block;
+  position: relative;
+  background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(50%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0)));
+  background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%);
+  background: -o-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%);
+  background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 );
+  background: linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%);
+  padding: 0px 12px;
+  top: -12px;
+  left: -24px;
+  height: 1px;
+  -webkit-box-shadow: rgba(255,255,255,0.2) 0px 1px 5px;
+  -khtml-box-shadow: rgba(255,255,255,0.2) 0px 1px 5px;
+  -moz-box-shadow: rgba(255,255,255,0.2) 0px 1px 5px;
+  -o-box-shadow: rgba(255,255,255,0.2) 0px 1px 5px;
+  box-shadow: rgba(255,255,255,0.2) 0px 1px 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -khtml-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.button:hover .shine {left: 24px;}
+.button:active .shine {opacity: 0;}
+
+.button.gray {background: #EDC124;}
+
+</style>
+<!-- START WORK SECTION -->
+<section id="work" class="section">
+
+  <!-- START WRAPPER -->
+  <div class="headline-wrapper" style="margin-bottom:-90px;font-size: 0.8em;">
+   <!-- START ROW -->
+   <div class="row" style="margin-top: -50px">
+    <h1 class="underline" style="font-size: 20px">
+     The Story So Far
+   </h1>
+   <p class="undertitle" style="font-size: 15px">
+    "The more you know about the past, the better prepared you are for the future." ~Theodore Roosevelt
+  </p>
+  <a href="glimpses/index.html" target="_blank"><div class="button gray"><div class="shine"></div>View More</div></a>
+
+  
+</div><!-- END ROW -->
+</div><!-- END HEADLINE WRAPPER -->
+
+
+<!-- START WRAPPER -->
+<div id="work-wrapper">
+  <div class="close">
+    <a id="close-work-wrapper"></a>
+  </div>
+  <div id="work-loader"><img src="images/layout/color_loader.gif" alt="" /></div>
+
+  <div id="load-work-content">
+    <!-- WORK DETAILS LOAD HERE -->
+  </div>
+</div><!-- END WRAPPER -->
+
+
+<!-- START WORK CONTAINER -->
+<div class="work-container" data-filter="all">			
+
+ <!-- START ROW -->
+ <div class="row" style="height:0px">
+  <!-- START FILTER TABS -->
+  <ul class="work-tabs">
+    <li class="filter active">
+    </li>
+    <li class="filter" data-filter="webdesign">
+    </li>
+    <li class="filter" data-filter="html">
+    </li>
+  </ul><!-- END FILTER TABS -->
+</div><!-- END ROW -->
+
+
+<!-- START WRAPPER WORK GRID -->
+<ul id="work-preview">
+
+  <!-- START WORK -->
+  <li class="mix webdesign">
+    <img src="images/work/thumbnail-01.jpg" alt="Kailash Kher" />
+    <!-- START LAYER -->
+    <div class="layer">
+     <h4 class="underline" style="font-size: 20px">Kailash Kher Concert 2013</h4>
+     <span class="client" style="font-size: 15px"><i>Teri Diwani @ AmphiTheatre</i></span>
+   </div><!-- END LAYER -->
+ </li><!-- END WORK -->
+
+ <!-- START WORK -->
+ <li class="mix html">
+  <img src="images/work/thumbnail-02.jpg" alt="" />
+  <!-- START LAYER -->
+  <div class="layer">
+   <h4 class="underline" style="font-size: 20px">Eco-Friendly Car Launch</h4>
+   <span class="client" style="font-size: 15px"><i>A Demo Car that runs on Bio-Fuel</i></span>
+ </div><!-- END LAYER -->
+</li><!-- END WORK -->
+
+<!-- START WORK -->
+<li class="mix webdesign">
+  <img src="images/work/thumbnail-03.jpg" alt="" />
+  <!-- START LAYER -->
+  <div class="layer">
+   <h4 class="underline" style="font-size: 20px">3D Mapping & Laser Show</h4>
+   <span class="client" style="font-size: 15px"><i>First of its kind in Gujarat</i></span>
+ </div><!-- END LAYER -->
+</li><!-- END WORK -->
+
+<!-- START WORK -->
+<li class="mix html">
+  <img src="images/work/thumbnail-04.jpg" alt="" />
+  <!-- START LAYER -->
+  <div class="layer">
+   <h4 class="underline" style="font-size: 20px">Transformers</h4>,,
+   <span class="client" style="font-size: 15px"><i>The Real-Steel Show Stealer.<br/>Metal vs Metal</i></span>
+ </div><!-- END LAYER -->
+</li><!-- END WORK -->
+
+<!-- START WORK -->
+<li class="mix webdesign">
+  <img src="images/work/thumbnail-05.jpg" height="300px" width="400px" alt="" />
+  <!-- START LAYER -->
+  <div class="layer">
+   <h4 class="underline" style="font-size: 20px">NU-Tech Welcomes You</h4>
+   <span class="client" style="font-size: 15px"><i>Eco-Friendly Rangolis</i></span>
+ </div><!-- END LAYER -->
+</li><!-- END WORK -->
+
+<!-- START WORK -->
+<li class="mix html">
+  <img src="images/work/thumbnail-06.jpg" alt="" />
+  <!-- START LAYER -->
+  <div class="layer">
+   <h4 class="underline" style="font-size: 20px">Game Development Workshop</h4>
+   <span class="client" style="font-size: 15px"><i>Designing Your Own Game Of Life<br/>Yours Rules,Your Canvas. </i></span>
+ </div><!-- END LAYER -->
+</li><!-- END WORK -->
+
+</ul>
+
+<!-- START PARALLAX CONTENT -->
+<div class="parallax-content parallax-newsletter">
+ <!-- START ROW -->
+ <div class="row">
+  <p class="max-width"  style="font-size: 15px">
+    NU-TECH is the grand Annual Techno-Management National Level Colloquium of Institute of Technology, Nirma University.<br>The largest confluence of all the bastion department and institute clubs is witnessed during the events.<br>
+    This being the fourth year of NU-Tech, we expect to cross the 10,000 barrier in terms of footfalls.</br>
+  </p>
+</div><!-- END ROW -->
+
+<!-- START ROW -->
+<div class="row gutters" class="parallax-content parallax-newsletter" style="font-size: 10px">
+  <!-- START COLUMN 4/12 -->
+  <div class="col span_4">
+   <!-- START FACTS -->
+   <div class="facts">
+    <div class="icon-number">
+     <i class="fa fa-users"></i>
+     <span class="number">7113</span>
+   </div>
+   <div class="text">
+     Participants
+   </div>
+ </div><!-- END FACTS -->
+</div><!-- END COLUMN 4/12 -->
+
+<!-- START COLUMN 4/12 -->
+<div class="col span_4">
+ <!-- START FACTS -->
+ <div class="facts">
+  <div class="icon-number">
+   <i class="icon-th-list"></i>
+   <span class="number">80</span>
+ </div>
+ <div class="text">
+   Events
+ </div>
+</div><!-- END FACTS -->
+</div><!-- END COLUMN 4/12 -->
+
+<!-- START COLUMN 4/12 -->
+<div class="col span_4">
+ <!-- START FACTS -->	
+ <div class="facts">
+  <div class="icon-number">
+   <i class="icon-cogs"></i>
+   <span class="number">13</span>
+ </div>
+ <div class="text">
+   Workshops
+ </div>
+</div><!-- END FACTS -->
+</div><!-- END COLUMN 4/12 -->
+</div><!-- END ROW -->
+
+</ul><!-- END WRAPPER WORK GRID -->
+
+</div><!-- END WORK CONTAINER -->
+
+</section><!-- END WORK SECTION -->
+
+<!-- START TEAM SECTION -->
+<!-- START SPOnSORs SECTION -->
+<section id="team">
+
+  <!-- START WRAPPER -->
+  <div class="headline-wrapper" style="margin-bottom:-70px;font-size: 0.8em;">
+    <!-- START ROW -->
+    <div class="row" style="margin-top: -50px">
+      <h1 class="underline" style="font-size: 20px">
+        Our Past Sponsors
+      </h1>
+      <!--check http://devfest.gdgahmedabad.com/ for sponsors ke liye agar aise type ka karna ho to.. -->
+      <p class="undertitle" style="font-size: 15px">
+        They Have Been The Pillars Of NU-Tech For The Past 3 Years.<br/>
+        They Believed In Us And Supported Us In Making NU-Tech A Successful And Grand Technical Fest.
+      </p>
+    </div><!-- END ROW -->
+  </div><!-- END WRAPPER -->
+
+  <!-- START ROW -->
+  <div class="parallax-content parallax-clients">
+    <!-- START CLIENT CAROUSEL -->
+    <ul class="carousel" id="client-carousel">
+      <li><a><img class="spons" src="images/sponsors/kandla.jpg" style="width: 50%;" alt="Kandla"/></a></li>
+      <li><a><img class="spons" src="images/sponsors/bob.jpg" style="width: 50%;" alt="BOB"/></a></li>
+      <li><a><img class="spons" src="images/sponsors/bc.jpg" style="width: 50%;" alt="British Council"/></a></li>
+      <li><a><img class="spons" src="images/sponsors/endeavor.jpg" style="width: 50%;" alt="Endeavor"/></a></li>
+      <li><a><img class="spons" src="images/sponsors/Hcl.jpg" style="width: 50%;"  alt="HCL"/></a></li>
+      <li><a><img src="images/sponsors/redbull.jpg" style="width: 50%;"  alt="Red Bull"/></a></li>
+      <li><a><img src="images/sponsors/reliance.png" style="width: 50%;"  alt="Reliance"/></a></li>
+      <li><a><img src="images/sponsors/shiksha.jpg" style="width: 50%;"  alt="Shiksha"/></a></li>
+      <li><a><img src="images/sponsors/suzuki.jpg" style="width: 50%;" alt="Suzuki"/></a></li>
+      <li><a><img src="images/sponsors/torrent.jpg" style="width: 50%;"  alt="Torrent Power"/></a></li>
+      <li><a><img src="images/sponsors/toshiba.jpg" style="width: 50%;"  alt="Toshiba"/></a></li>
+      <li><a><img src="images/sponsors/vibrant.jpg" style="width: 50%;" alt="Vibrant Gujarat"/></a></li>
+      <li><a><img src="images/sponsors/yamaha.jpg" style="width: 50%;"  alt="Yamaha"/></a></li>
+    </ul><!-- END CLIENT CAROUSEL -->
+    <br/><br/>
+  </div>
+
+</section><!-- END TEAM SECTION -->
+<!-- END TEAM SECTION -->
+
+<!-- START PRICING SECTION -->
+<section id="contact">
+
+  <!-- START WRAPPER -->
+  <div class="headline-wrapper" style="margin-bottom:10px;font-size: 0.8em;">
+   <!-- START ROW -->
+   <div class="row" style="margin-top: -50px ;margin-bottom: -60px">
+    <h1 class="underline" style="font-size: 20px;">
+     Reach Us
+   </h1>
+   <p class="undertitle" style="font-size: 15px;">
+     It would be nice to meet you..!!
+   </p>
+ </div><!-- END ROW -->
+</div><!-- END WRAPPER -->
+
+
+<!-- START ROW -->
+<div class="row gutters">
+ <!-- START COLUMN 6/12 -->
+ <!-- END COLUMN 6/12 -->
+
+
+ <!-- START COLUMN 6/12 -->
+ <div class="col span_6" style="padding-top: 40px;width: 100%;height: 60%">
+  <!-- START PRICING TABLE -->
+  <div class="pricing-table best-price">
+    <div class="header">
+      <span class="price" style="font-size: 30px;">
+       You Can Find Us Here
+     </span>
+   </div>
+   <!-- START GOOGLE MAP -->
+   <div style="height:375px;" class="content" id="googlemap"></div>
+   <!-- END GOOGLE MAP -->
+   <div style="padding-top:30px;padding-bottom: 40px;">
+    <a href="https://www.google.co.in/maps/place/Nirma+University/@23.128997,72.5429171,18z/data=!4m2!3m1!1s0x0000000000000000:0x7057093d8f0a53df" target="_blank"><input type="button" class="submit" value="Track Us" style="font-size: 15px;" name=""/></a>
+  </div>
+</div><!-- END PRICING TABLE -->
+</div><!-- END COLUMN 6/12 -->
+<br><br><br><br>
+</div><!-- END ROW -->
+<div class="row gutters">
+  <br><br><br><br><br>
+  <div class="callout-box" id="cr">
+   <h3>Be Our Campus Representative</h3>
+   <p class="max-width" style="font-size: 15px;">Need Something for your CV... Help Yourself!!<br/>Be an Outsourcer</p>
+   <a style="text-decoration: none" link="#fff" vlink="#fff" href="CR/index.html"class="button" style="font-size: 15px;">Learn More</a>
+ </div>
+</div>
+<div class="hr margin"></div>
+</section><!-- END PRICING SECTION -->
+
+<!-- START FOOTER -->
+<footer id="contact">
+
+ <!-- START ROW --><!--Changes-->
+ <div class="row gutters contact-row">
+  <!-- START COLUMN 5/12 -->
+  <div class="col span_6" style="font-size: 15px;text-align: center">
+    <h4>
+      About
+    </h4>
+    <p style="text-align:justify; font-size: 12px;">
+      Institute of Technology, Nirma University, earlier known as Nirma Institute of Technology, started in 1995 by Nirma Education and Research Foundation (NERF), was the first self-financed engineering college in Gujarat. Within 19 years of its inception, Institute of Technology has become a leading hub of education offering multidisciplinary undergraduate, postgraduate and Ph.D. programmes in Engineering.
+    </p>
+  </div>
+  <!-- END COLUMN 6/12 -->
+
+  <!-- START COLUMN 6/12 -->
+  <div id="contactdetail" class="col span_6" style="font-size: 15px;">
+    <h4>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      Contact Details</h4>
+      <!-- START CONTACT DETAILS -->
+      <div class="contact-details">
+        <div class="col span_7">
+          <!-- START DETAIL -->
+          <span class="detail">
+            <span class="icon"><i class="fa fa-map-marker"></i></span>
+            <span class="text" style="font-size: 14px;">Institute of Technology<br>Nirma University<br>S.G.HighWay, Near Charodi<br>Ahmedabad, Gujarat - 382481</span>
+          </span>
+          <!-- END DETAIL -->
+
+          <!-- START DETAIL -->
+          <span class="detail" >
+            <span class="icon"><i class="icon-phone-sign"></i></span>
+            <span class="text" style="font-size: 14px;">+91-079-30642-000/100/200/300</span>
+          </span>
+          <!-- END DETAIL -->
+        </div>
+        <div class="col span_5">
+          <!-- START DETAIL -->
+          <span class="detail">
+            <span class="icon"><i class="fa fa-envelope"></i></span>
+            <span class="text" style="font-size: 14px;"><a href="mailto:nutech@nirmauni.ac.in">nutech@nirmauni.ac.in</a></span>
+          </span>
+          <!-- END DETAIL -->
+
+          <!-- START DETAIL -->
+          <span class="detail">
+            <span class="icon"><i class="fa fa-link"></i></span>
+            <span class="text" style="font-size: 14px;"><a href="http://www.nirmauni.ac.in/itnu" target="_blank">www.nirmauni.ac.in/itnu</a></span>
+          </span><!-- END DETAIL -->
+        </div>
+      </div><!-- END CONTACT DETAILS -->
+    </div><!-- START COLUMN 4/12 -->
+  </div>
+  <!-- END ROW -->
+
+
+  <!-- START BOTTOM BOX -->
+  <div class="bottom-box">
+    <!-- START ROW -->
+    <div class="row"  style="font-size: 10px;">
+      <img src="images/layout/logo.png" alt="NU-Tech"/> <br/>
+      © 2016, Team NU - Tech<br/><br/><br/><br/><br/>
+      <div class="social-links">
+        <br/>
+
+        <a href="http://twitter.com/NUTechOfficial" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
+        <a href="http://www.facebook.com/NUTECH13" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-google-plus"></i></a>
+      </div>
+      <!-- END HEADER SOCIAL ICONS -->
+    </div>
+    <!-- END ROW -->
+  </div>
+  <!-- END BOTTOM BOX -->
+</footer>
+<!-- END FOOTER -->
+
+</div><!-- END PAGE WRAPPER -->
+
+
+<!-- JAVASCRIPT PLUGINS -->
+<script type="text/javascript" src="scripts/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="scripts/SmoothScroll.js"></script>
+<script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="scripts/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="scripts/jquery.maximage.js"></script>
+<script type="text/javascript" src="scripts/jquery.bxslider.js"></script>
+<script type="text/javascript" src="scripts/jquery.hoverdir.js"></script>
+<script type="text/javascript" src="scripts/jquery.mixitup.js"></script>
+<script type="text/javascript" src="scripts/jquery.fitvids.js"></script>
+<script type="text/javascript" src="scripts/jquery.carouFredSel-6.2.1.js"></script>
+<script type="text/javascript" src="scripts/respond.min.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyClmQvBU5eqTS3k_BEToj9aWlCpBgrGhmw&amp;sensor=false"></script>
+<script type="text/javascript" src="scripts/jquery.googlemap.js"></script>
+
+
+<!-- THEME JAVASCRIPT -->
+<script type="text/javascript" src="scripts/theme.script.js"></script>
+
+<!-- THEME MAIL -->
+<script type="text/javascript" src="scripts/theme.mail.js"></script>
+
+<!-- 
+SETTINGS IN theme.settings.js:
+ 
+	1. WORK PREVIEW HOVERDIR
+	2. PARALLAX BACKGROUNDS
+	3. SLIDER
+	  3.0 FULLSCREEN HEADER IMAGE SLIDER
+	  3.1 MACBOOK DEVICE SLIDER
+	  3.2 IPHONE DEVICE SLIDER
+	  3.3 COMMENT SLIDER
+	4. CAROUSEL
+	  4.1 CLIENT CAROUSEL
+	5. GOOGLE MAP
+-->
+<script type="text/javascript" src="scripts/theme.settings.js"></script>
+<script type="text/javascript" src="scripts/modernizr.custom.97074.js"></script>
+<script src="scripts/flipclock.js"></script>
+</div>
+<script type="text/javascript">
+  function playPause(){
+
+   var video = document.getElementById("video1");
+
+   if (video.paused) {
+    video.style.zIndex = "3";
+    video.play();
+  } else {
+   video.style.zIndex = "1";
+   video.pause();
+ }
+};
+
+</script>
+<div id="menubar">
+  <!-- Start Nav Structure -->
+  <button class="cn-button" id="cn-button" style="z-index: 9002">-</button>
+  <div class="cn-wrapper opened-nav" id="cn-wrapper" style="z-index: 9001;">
+   <ul>
+
+     <li title="Campus Representative" ><a href="CR/index.html" target="_blank" onclick="$('#cn-button').click()"><span class="icon-facetime-video"></span></a></li>
+     <li title="Workshops"><a href="workshop/index.html" onclick="$('#cn-button').click()"><span class="fa fa-briefcase"></span></a></li>
+     <li title="Home"><a href="#" onclick="$('#cn-button').click()"><span   class="icon-home"></span></a></li>
+     <li title="Events List" ><a href="event/index.html" onclick="$('#cn-button').click()"><span  class="icon-th-list"></span></a></li>
+     <li title="Contact"><a href="index.html#contact" onclick="$('#cn-button').click()"><span class="icon-phone-sign"></span></a></li>
+   </ul>
+ </div>
+ <div id="cn-overlay" class="cn-overlay on-overlay"></div>
+ <!-- End Nav Structure -->
+</div>
+
+
+<script src="scripts/polyfills.js"></script>
+<script src="scripts/demo1.js"></script>
+</body>
 </html>

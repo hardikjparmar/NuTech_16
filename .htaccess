@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^nu\-tech\.in$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.nu\-tech\.in$
+RewriteRule ^/?$ "http\:\/\/www\.nu\-tech\.in\/index\.html" [R=301,L]
+

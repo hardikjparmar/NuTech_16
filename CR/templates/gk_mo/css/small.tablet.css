@@ -1,0 +1,260 @@
+/*
+#------------------------------------------------------------------------
+# Mo - January Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+ 
+body {
+	font-size: 14px;
+}
+
+h2, .componentheading {
+	font-size: 32px;
+}
+
+.itemContainer .itemsContainerWrap,
+.itemsContainer .itemsContainerWrap {
+	margin: 0!important;	
+}
+
+.itemContainer,
+.itemsContainer {
+	clear: both;
+	width: 100%!important;
+}
+
+.demo-typo-col2,
+.demo-typo-col3,
+.demo-typo-col4 {
+	clear: both;
+	float: none;
+	width: 100%;
+}
+
+article header h1, 
+article header h2 {
+	font-size: 26px;
+}
+
+#gkPageContent {
+	padding-bottom: 30px;
+	padding-top: 0px;
+}
+
+#gkTop,
+.custom.gk-header1,
+.custom.gk-header2,
+.custom.gk-header3,
+#gkPageContent,
+.frontpage #gkPageContent,
+#gkBottom1.gkSingleModule .box, 
+#gkBottom2.gkSingleModule .box, 
+#gkBottom3.gkSingleModule .box, 
+#gkBottom4.gkSingleModule .box, 
+#gkBottom5.gkSingleModule .box, 
+#gkBottom6.gkSingleModule .box, 
+#gkBottom7.gkSingleModule .box, 
+#gkBottom8.gkSingleModule .box,
+.box.newsletter,
+#gkFooter,
+#itemCommentsAnchor,
+.itemRelatedContent,
+#gkBreadcrumb,
+#gkBottom1, 
+#gkBottom2, 
+#gkBottom3,
+#gkBottom4, 
+#gkBottom5, 
+#gkBottom6, 
+#gkBottom7, 
+#gkBottom8 {
+
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+}
+
+#gkBottom1.gkSingleModule .box, 
+#gkBottom2.gkSingleModule .box, 
+#gkBottom3.gkSingleModule .box, 
+#gkBottom4.gkSingleModule .box, 
+#gkBottom5.gkSingleModule .box, 
+#gkBottom6.gkSingleModule .box, 
+#gkBottom7.gkSingleModule .box, 
+#gkBottom8.gkSingleModule .box,
+.frontpage #gkMainbody {
+	padding-top: 40px!important;
+	padding-bottom: 40px!important;
+}
+
+#gkTop1 .box.imagebg, 
+#gkTop2 .box.imagebg,
+#itemCommentsAnchor,
+.itemRelatedContent,
+#gkBottom1.gkSingleModule > div, 
+#gkBottom2.gkSingleModule > div, 
+#gkBottom3.gkSingleModule > div, 
+#gkBottom4.gkSingleModule > div, 
+#gkBottom5.gkSingleModule > div, 
+#gkBottom6.gkSingleModule > div, 
+#gkBottom7.gkSingleModule > div, 
+#gkBottom8.gkSingleModule > div {
+	margin-left: -20px!important;
+	margin-right: -20px!important;
+}
+
+#gkTop1 .box.imagebg, 
+#gkTop2 .box.imagebg,
+#itemCommentsAnchor,
+.itemRelatedContent {
+	margin-left: -20px!important;
+	margin-right: -20px!important;
+}
+
+.gkLogo,
+.has-header .gkLogo {
+	left: 0px;
+}
+
+.gk-header1 h1 {
+	font-size: 28px;
+}
+
+.gk-header1 p {
+	font-size: 14px;
+}
+
+.box.big-title h3, 
+.box.big-title > .header {
+	font-size: 24px!important;
+}
+
+.box.imagebg h3 {
+	bottom: 0;
+	font-size: 24px;
+	left: 20px;
+	padding: 20px;
+}
+
+.box.centered p + p > img {
+	margin: 30px 0 20px 0;
+}
+
+.gkCols {
+	margin: 0 -10px;
+}
+
+.gkCols > div, .gkCols > blockquote {
+	padding: 0 10px;
+}
+
+.gkCols[data-cols="4"] > div, 
+.gkCols[data-cols="4"] > blockquote,
+.gkCols[data-cols="5"] > div, 
+.gkCols[data-cols="5"] > blockquote {
+	width: 50%;
+}
+
+.gkCols.margin-top, 
+.gkCols.testimonials {
+	margin-top: 60px!important;
+}
+
+.gkCols p {
+	font-size: 13px;
+}
+
+.box.image-right .image-right > img,
+.box.image-left .image-left > img  {
+	max-width: 30%;
+}
+
+.box.image-right .image-right > div {
+	width: 60%;
+}
+
+.gk-point p {
+	font-size: 13px;
+}
+
+.gk-list li {
+	font-size: 14px;
+	line-height: 50px;
+	margin-left: 60px;
+}
+
+.box .gk-list li:before {
+	left: -60px;
+	top: 6px;
+}
+
+.box.centered p > .button {
+	margin: 10px 0;
+}
+
+.box.image-left .image-left > div {
+	width: 55%;
+}
+
+.custom.gk-header2 {
+	padding-bottom: 150px;
+}
+
+.box.color-bg h1, 
+.box.color-bg h2, 
+.box.color-bg h3, 
+.box.color-bg h4, 
+.box.color-bg h5, 
+.box.color-bg h6 {
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+.color-bg > div > small {
+	bottom: 20px;
+}
+
+.box.image-right .gkCols {
+	margin-top: 40px;
+}
+
+.gkCols + .button {
+	margin-top: 10px;
+}
+
+#gkFooter {
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+#itemCommentsAnchor {
+	margin-bottom: -60px;
+}
+
+#gkBreadcrumb {
+	padding-bottom: 20px!important;
+	padding-top: 20px!important;
+}
+
+#gkBreadcrumb li {
+	font-size: 14px!important;
+}
+
+.itemAsideInfo + .itemBody {
+	width: 70%;
+}
+.itemAsideInfo {
+	font-size: 12px;
+	width: 25%;
+}
+
+.gkPriceTable dd {
+	font-size: 13px;
+}
+
+article header li {
+	font-size: 13px!important;
+}

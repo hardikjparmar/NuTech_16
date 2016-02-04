@@ -1,0 +1,395 @@
+/*
+#------------------------------------------------------------------------
+# Mo - January Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+.k2box > ul,
+.k2box > ul ul {
+	list-style-type: disc;
+	padding-left: 20px
+}
+.k2box > ol,
+.k2box > ol ol {
+	list-style-type: decimal;
+	padding-left: 20px
+}
+.k2box > ul li,
+.k2box > ul ul li,
+.k2box > ol li,
+.k2box > ol ol li {
+	list-style-position: outside;
+	padding-left: 0
+}
+p.gkInfo1,
+p.gkTips1,
+p.gkWarning1 {
+	padding: 16px 16px 16px 66px;
+	position: relative;
+}
+.gkHighlight1,
+.gkHighlight2 {
+	cursor: default;
+	padding: 1px 5px;
+	text-shadow: none
+}
+pre,
+code {
+	font: normal .92em/32px 'Curier New', monospace!important;
+	margin: 36px 0!important;
+	padding: 20px 26px !important
+}
+ol {
+	list-style-position: inside;
+	margin: 2em 0;
+	padding: 0
+}
+ol.gkDec { list-style-type: decimal }
+ol.gkRoman { list-style-type: upper-roman }
+ol.gkAlpha { list-style-type: lower-alpha }
+ol.gkDecimalLeadingZero { list-style-type: decimal-leading-zero }
+.itemBody > ul,
+.itemBody > div > ul,
+ul.gkBullet1,
+ul.gkBullet2,
+ul.gkBullet3,
+ul.gkBullet4 {
+	margin: 2em 0;
+	padding: 0
+}
+ul li { list-style-position: outside }
+.itemBody > ul > li,
+.itemBody > div > ul > li,
+ul.gkBullet1 li,
+ul.gkBullet2 li,
+ul.gkBullet3 li,
+ul.gkBullet4 li {
+	list-style: none;
+	overflow: inherit;
+	padding: 2px 0 2px 32px;
+	position: relative
+}
+.itemBody > ul > li,
+.itemBody > div > ul > li {
+	padding-left: 20px;
+}
+.itemBody > ul > li:before,
+.itemBody > div > ul > li:before,
+ul.gkBullet1 li:before,
+ul.gkBullet2 li:before,
+ul.gkBullet3 li:before,
+ul.gkBullet4 li:before {
+	font-family: FontAwesome;
+	font-size: 13px;
+	position: absolute;
+	top: 5px;
+	left: 0
+}
+div.gkLegend1 h4 {
+	background: #fff;
+	float: left;
+	font-size: 14px;
+	font-weight: 400;
+	left: 11px;
+	line-height: 18px;
+	margin: 0 0 -9px!important;
+	padding: 0 10px;
+	position: relative;
+	text-transform: uppercase;
+	top: -16px
+}
+div.gkLegend1 {
+	margin: 30px 0;
+	padding: 6px
+}
+div.gkLegend1 p {
+	clear: both;
+	margin: 7px
+}
+blockquote {
+	font-style: italic;
+	font-weight: 400;
+	margin: 40px 0;
+	color: #000;
+	display: block;
+	padding: 0 0 0 66px;
+	position: relative;
+}
+blockquote:before {
+	color: #f47264;
+	content: "\f10d";
+	font-family: FontAwesome;
+	font-size: 32px;
+	line-height: 0;
+	position: absolute;
+	left: 0;
+	top: 15px;
+}
+blockquote.gkBlockquote1:before { color: #e5e5e5; }
+.gkBlockTextLeft,
+.gkBlockTextRight,
+.gkBlockTextCenter {
+	color: #272727;
+	display: block;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 170%;
+	padding: 25px;
+	width: 38%
+}
+.gkBlockTextLeft {
+	float: left;
+	padding-left: 0;
+	text-align: left
+}
+.gkBlockTextRight {
+	float: right;
+	padding-right: 0;
+	text-align: right
+}
+.gkBlockTextCenter {
+	margin: 0 auto;
+	text-align: center
+}
+p.numblocks {
+	margin: 0 0 24px;
+	min-height: 48px;
+	padding: 0 0 0 82px !important;
+	position: relative
+}
+p.numblocks span {
+	border: 2px solid #fad260;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	display: block;
+	font-size: 20px;
+	font-weight: 500;
+	height: 48px;
+	line-height: 48px;
+	left: 0;
+	
+	position: absolute;
+	text-align: center;
+	top: 4px;
+	width: 48px
+}
+p.num-1 span { color: #fad260; }
+p.num-2 span {
+	color: #84cbc5;
+	border-color: #84cbc5;
+}
+p.num-3 span {
+	color: #f47264;
+	border-color: #f47264;
+}
+p.numblocks span.highlight {
+	border-right: none;
+	display: inline;
+	font-size: 15px;
+	position: static;
+	width: auto
+}
+.gkblock-1,
+.gkblock-2,
+.gkblock-3 {
+	margin: 36px 0;
+	padding: 15px 20px
+}
+.bubble-1,
+.bubble-2 {
+	margin: 20px 0 40px;
+	padding: 15px 20px;
+	position: relative
+}
+.bubble-1::after,
+.bubble-2::after {
+	border-color: transparent;
+	border-style: solid;
+	border-width: 22px 0 0 22px;
+	bottom: -22px;
+	content: "";
+	display: block;
+	left: 30px;
+	position: absolute;
+	width: 0;
+}
+.bubble-1 cite,
+.bubble-2 cite {
+	bottom: -25px;
+	display: block;
+	font-size: 13px;
+	font-weight: 500;
+	height: 25px;
+	left: 26px;
+	line-height: 32px;
+	padding-left: 40px;
+	position: absolute
+}
+pre,
+code {
+	border: 1px solid #e5e5e5;
+	border-left: 5px solid #f47264;
+	color: #272727;
+	padding-left: 32px
+}
+p.gkInfo1 {
+	background-color: #f3f8ff;
+	color: #272727;
+}
+p.gkTips1 {
+	background-color: #FFFFDD;
+	color: #272727;
+}
+p.gkWarning1 {
+	background-color: #f47264;
+	color: #fff;
+}
+p.gkInfo1:before,
+p.gkTips1:before,
+p.gkWarning1:before {
+	font-family: FontAwesome;
+	font-size: 24px;
+	position: absolute;
+	top: 5px;
+	left: 22px;
+}
+p.gkInfo1:before {
+	color: #272727;
+	content: "\f0e6";
+}
+p.gkTips1:before {
+	color: #272727;
+	content: "\f0eb";
+}
+p.gkWarning1:before {
+	color: #fff;
+	content: "\f057";
+}
+div.gkLegend1 { border: 4px double #e5e5e5 }
+div.gkLegend1 h4 {
+	background: #fff;
+	color: #242424
+}
+.gkHighlight1 { background: #ffd }
+.gkblock-1 { border: 1px solid #e5e5e5 }
+.gkblock-2 {
+	background: #FFFEF4;
+	border: 1px solid #EAE8CC
+}
+.gkblock-3 { background: #f3f8ff }
+.bubble-1 {
+	background: #84cbc5;
+	color: #fff
+}
+.bubble-1::after {
+	border-color: #84cbc5;
+	border-left: 22px solid transparent;
+}
+.bubble-2 {
+	background: #f47264;
+	color: #fff
+}
+.bubble-2::after {
+	border-color: #f47264;
+	border-left: 22px solid transparent;
+}
+.bubble-1 cite { color: #84cbc5; font-weight: 700 }
+.bubble-2 cite { color: #f47264 ; font-weight: 700}
+
+.itemBody > ul > li:before,
+.itemBody > div > ul > li:before,
+ul.gkBullet1 li:before {
+	color: #111;
+	content: "\f111";
+	font-size: 6px;
+	top: 11px;
+}
+ul.gkBullet2 li:before {
+	color: #84cbc5;
+	content: "\f14a";
+}
+ul.gkBullet3 li:before {
+	color: #fad260;
+	content: "\f006";
+}
+ul.gkBullet4 li:before {
+	color: #f47264;
+	content: "\f0a9";
+}
+ul#demo-typography {
+	background: transparent;
+	overflow: hidden;
+	padding: 10px 30px 30px
+}
+ul#demo-typography li {
+	color: #f47264;
+	float: left;
+	font-size: 11px;
+	line-height: 24px;
+	list-style-type: disc;
+	width: 23.9%
+}
+ul#demo-typography li a {
+	font-size: 11px;
+	text-shadow: 2px 2px 0 #fff
+}
+.demo-typoDiv {
+	clear: both;
+	margin: 0 0 30px;
+	overflow: hidden
+}
+h4.demo-typo {
+	color: #272727;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 60px 0 20px;
+	text-transform: uppercase
+}
+.demo-typo-col2 {
+	float: left;
+	width: 50%
+}
+.demo-typo-col3 {
+	float: left;
+	width: 33%
+}
+.demo-typo-col4 {
+	float: left;
+	width: 25%
+}
+.demo-typo_padd { padding: 0 15px }
+#warnings .demo-typo_padd p { margin: 1em 0 1.6em }
+.typoDesc small {
+	color: #aaa;
+	font: normal 11px Monaco, Consolas, "Courier News", monospace;
+}
+.bubble-1 small, .bubble-2 small { color: #fff; }
+.gkblock-3 small { color: #353639!important }
+span.helpTooltip {
+	background: #f47264;
+	color: #fff;
+}
+.gkHighlight2 { background: #f5f5f5; }
+.the-icons { margin-bottom: 32px; }
+.itemBody .the-icons > li {
+	float: left;
+	margin-right: 2%;
+	padding-left: 0!important;
+	width: 23%;
+}
+.the-icons > li:before { display: none; }
+h5.page-header {
+	clear: both;
+	padding: 36px 0 18px;
+	text-transform: uppercase
+}
+[class^="fa fa-"],
+[class*=" fa-"] {
+	color: #272727;
+	padding-right: 8px
+}

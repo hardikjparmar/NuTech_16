@@ -1,0 +1,751 @@
+/*
+#------------------------------------------------------------------------
+# Mo - January Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+#gkLogo {
+	margin: 0px 86px 0;
+}
+#gkMainMenu .menu {	display: none;}
+#zDropdown-header .logo {left: 10px;}
+#zDropdown-header .menu {display: none;}
+.menutext_up {top: 19px;right: 2px;}
+.menutext {top: 20px;right: 10px;}
+.linehead {display: none;}
+.brand{width: 100%;padding-right: 0px;padding-bottom: 5px;}
+.block_onas {margin-top: -70px;}
+.brendnew {font-size: 4.25em;padding-right: 0px;}
+.sendmsg {display: none;}
+.awwwards {display: none;}
+.brend_slogan {font-size: 18px;padding-right: 0px;}
+.block_onas .leftblock {width: 100%;float: none;}
+.block_onas .leftblock>div {padding-right: 0px;}
+.block_onas .rightblock {width: 100%;float: none;}
+.rightblock>div {padding-left: 0px;}
+.zVideoLink {display: none;}
+#backup {bottom: 5%;}
+.block_onas p {font-size: 16px;}
+#zPravila div{padding-left: 0px!important;padding-right: 0px!important;float: none!important;width: 100%!important;vertical-align: top!important;background-image:none!important;display: block!important;height: auto!important;}
+#canvas {display: none;}
+#gkBottom8 .box {padding-top: 0px;}
+.menutext_up_secondpage {right: 10px;top: 10px;}
+.secondpage .logo {left: 5px;top: 5px;}
+#aside-menu-toggler, 
+#mobile-menu-toggler {
+	margin-top: 16px!important;
+}
+
+#gkTop1, 
+#gkTop2,
+.frontpage #gkTop1, 
+.frontpage #gkTop2 {
+	padding: 20px 0;
+}
+
+#gkTop1 .box.imagebg, 
+#gkTop2 .box.imagebg {
+	margin: 0 -20px!important;
+	width: auto!important;
+}
+
+.custom.gk-header1,
+.custom.gk-header2,
+.custom.gk-header3,
+#gkPageContent,
+.frontpage #gkPageContent,
+#gkBottom1.gkSingleModule .box, 
+#gkBottom2.gkSingleModule .box, 
+#gkBottom5.gkSingleModule .box, 
+#gkBottom7.gkSingleModule .box, 
+#gkBottom8.gkSingleModule .box,
+.box.newsletter,
+#gkFooter,
+#itemCommentsAnchor,
+.itemRelatedContent,
+#gkBreadcrumb,
+#gkBottom1,
+#gkBottom2,
+#gkBottom5,
+#gkBottom7,
+#gkBottom8 {
+	padding-left: 20px!important;
+	padding-right: 20px!important;
+}
+
+#gkSidebar .box,
+#gkBottom1 .box,
+#gkBottom2 .box,
+#gkBottom3 .box,
+#gkBottom4 .box,
+#gkBottom5 .box,
+#gkBottom6 .box,
+#gkBottom7 .box,
+#gkBottom8 .box {
+	clear: both!important;
+	float: none!important;
+	width: 100%;
+}
+#gkSidebar > div {
+	margin-top: 20px!important;
+	padding-top: 25px!important;
+}
+#gkSidebar > div > .box {
+	float: none;
+	margin-top: 0!important;
+	margin-bottom: 12px!important;
+	width: 100%;
+}
+#gkSidebar > div > .box:nth-child(2n+1) {
+	clear: both!important;
+}
+#gkSidebar > div > .box:nth-child(odd) {
+	padding-right: 0px;	
+}
+#gkSidebar > div > .box:nth-child(even) {
+	padding-left: 0px;
+}
+
+/* limitation suffixes */
+.notablet {
+	display: block!important;
+}
+.nomobile {
+	display: none!important;
+}
+.onlytablet {
+	display: none!important;
+}
+.onlymobile {
+	display: block!important;
+}
+.box.notablet.nomobile {
+	display: none!important;
+}
+
+/* Fix for the user profile */
+.profile dt {
+	width: 100% !important;
+}
+
+/* Fix for the contact page */
+.contact .contact-image {
+	float: left !important;
+}
+.contact .contact-address {
+	clear: both !important;
+	padding-top: 20px !important;
+}
+.contact .contact-form input,
+.contact .contact-form textarea {
+	width: 100% !important;
+}
+
+/* Fix for the search */
+fieldset.word #search-searchword,
+fieldset.word .inputbox {
+	width: 50%;
+}
+fieldset.phrases .ordering-box,
+fieldset.only input[type="checkbox"],
+fieldset.phrases input[type="radio"] {
+	clear: both;
+}
+
+/* Fix for the register */
+#member-registration dd {
+	clear: both !important;
+	display: block !important;
+}
+
+/* Fix for tables */
+fieldset {
+	box-sizing: border-box!important;
+	max-width: 100%!important;
+	width: 100%!important;
+	overflow: hidden;
+}
+
+@media only screen and (max-width: 580px) {
+	#gkMainbody table {
+		width: 100%!important;
+	}
+	
+	#gkMainbody table tr,
+	#gkMainbody table th,
+	#gkMainbody table td {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		border: none;
+		display: block;
+		width: 100%!important;
+	}
+	
+	#gkMainbody table tr {
+		border-bottom: 1px solid #eee;
+	}
+}
+
+/*
+Alternative table code:
+-----
+#gkMainbody table:before {
+	content: "Scroll horizontally to view the whole table";
+	height: 14px;
+	width: 100%;
+	display: block;
+	font-size: 10px;
+	margin-top: -30px;
+	margin-bottom: 10px;
+	font-family: Arial, sans-serif;
+}
+#gkMainbody table {
+	width: 540px!important;
+	display: block!important;
+	padding: 30px 0 20px 0;
+	overflow:scroll;
+	-webkit-overflow-scrolling:touch;
+}
+#gkMainbody table tbody,
+#gkMainbody table thead,
+#gkMainbody table tfoot {
+	width: 540px!important;
+	display: table;
+}
+
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) and (-moz-max-device-pixel-ratio: 1.5), only screen and (max-device-width: 320px) and (-o-max-device-pixel-ratio: 1.5/1), only screen  and (max-device-width: 320px) and (-webkit-max-device-pixel-ratio: 1.5), only screen and (max-device-width: 320px) and (max-device-pixel-ratio: 1.5), only screen and (max-device-width: 640px) and (-moz-min-device-pixel-ratio: 2), only screen and (max-device-width: 640px) and (-o-min-device-pixel-ratio: 2/1), only screen and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-device-width: 640px) and (min-device-pixel-ratio: 2) {
+	#gkMainbody table {
+		width: 260px!important;
+	}
+}
+
+@media only screen and (max-width: 480px) and (orientation:landscape), only screen and (max-device-width: 480px) and (-moz-max-device-pixel-ratio: 1.5) and (orientation:landscape), only screen and (max-device-width: 480px) and (-o-max-device-pixel-ratio: 1.5/1) and (orientation:landscape), only screen  and (max-device-width: 480px) and (-webkit-max-device-pixel-ratio: 1.5) and (orientation:landscape), only screen and (max-device-width: 480px) and (max-device-pixel-ratio: 1.5) and (orientation:landscape), only screen and (max-device-width: 960px) and (-moz-min-device-pixel-ratio: 2) and (orientation:landscape), only screen and (max-device-width: 960px) and (-o-min-device-pixel-ratio: 2/1) and (orientation:landscape), only screen and (max-device-width: 960px) and (-webkit-min-device-pixel-ratio: 2) and (orientation:landscape), only screen and (max-device-width: 960px) and (min-device-pixel-ratio: 2) and (orientation:landscape) {
+	#gkMainbody table {
+		width: 420px!important;
+	}
+}*/
+
+/* top/bottom modules */
+.box.gkmod-1,
+.box.gkmod-2,
+.box.gkmod-3,
+.box.gkmod-4,
+.box.gkmod-more {
+	float: left!important;	
+}
+.box.gkmod-1,
+.box.gkmod-2,
+.box.gkmod-3,
+.box.gkmod-4,
+.box.gkmod-more {
+	width: 100%!important;
+}
+.box.gkmod-more.gkmod-last-1:last-child,
+.box.gkmod-more.gkmod-last-2:last-child,
+.box.gkmod-more.gkmod-last-2:nth-last-child(2),
+#gkPageWrap .box.gkmod-more.gkmod-last-3:last-child,
+#gkPageWrap .box.gkmod-more.gkmod-last-3:nth-last-child(2),
+#gkPageWrap .box.gkmod-more.gkmod-last-3:nth-last-child(3) {
+	width: 100%!important;
+}
+
+/* top/bottom modules */
+body #gkPage .box {
+	margin-bottom: 20px!important;
+}
+
+/* 3-column layout */
+.gkCols3 .box.gkmod-more:nth-child(1n) {
+	clear: both;
+}
+.gkCols3 .box.gkmod-1,
+.gkCols3 .box.gkmod-2,
+.gkCols3 .box.gkmod-3,
+.gkCols3 .box.gkmod-more,
+.gkCols3 .box.gkmod-more.gkmod-last-1:last-child,
+.gkCols3 .box.gkmod-more.gkmod-last-2:last-child,
+.gkCols3 .box.gkmod-more.gkmod-last-2:nth-last-child(2) {
+	width: 100%!important;
+}
+
+/* 4-column layout */
+body .gkCols4 .box.gkmod-more:nth-child(1n) {
+	clear: both;
+}
+body .gkCols4 .box.gkmod-1,
+body .gkCols4 .box.gkmod-2,
+body .gkCols4 .box.gkmod-3,
+body .gkCols4 .box.gkmod-4,
+body .gkCols4 .box.gkmod-more,
+body .gkCols4 .box.gkmod-more.gkmod-last-1:last-child,
+body .gkCols4 .box.gkmod-more.gkmod-last-2:last-child,
+body .gkCols4 .box.gkmod-more.gkmod-last-2:nth-last-child(2),
+body .gkCols4 .box.gkmod-more.gkmod-last-3:last-child,
+body .gkCols4 .box.gkmod-more.gkmod-last-3:nth-last-child(2),
+body .gkCols4 .box.gkmod-more.gkmod-last-3:nth-last-child(3) {
+	width: 100%!important;
+}
+
+/* 6-column layout */
+body .gkCols6 .box.gkmod-more:nth-child(1n) { 
+	clear: both; 
+}
+body .gkCols6 .box.gkmod-1,
+body .gkCols6 .box.gkmod-2,
+body .gkCols6 .box.gkmod-3,
+body .gkCols6 .box.gkmod-4,
+body .gkCols6 .box.gkmod-more,
+body .gkCols6 .box.gkmod-5,
+body .gkCols6 .box.gkmod-more,
+body .gkCols6 .box.gkmod-6,
+body .gkCols6 .box.gkmod-more,
+body .gkCols6 .box.gkmod-more.gkmod-last-1:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-2:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-2:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-3:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-3:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-3:nth-last-child(3),
+body .gkCols6 .box.gkmod-more.gkmod-last-4:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(3),
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(4),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(3),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(4),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(5) {
+	width: 100%!important;
+}
+
+/* article fix */
+#gkContent article > time {
+	display: none!important;
+}
+#gkContent article > time + header {
+	padding-left: 0!important;
+}
+#gkContent article header li.itemDate,
+#gkContent article header li.item-date {
+	display: block;
+}
+.single-item .itemDate + header {
+	margin: 0 0 56px 0;
+}
+.itemDate {
+	font-size: 12px;
+	margin: -30px 0 0 0!important;
+	padding: 10px;
+}
+.itemDate span {
+	clear: none;
+	display: inline-block;
+	font-size: 14px;
+	text-transform: none;
+}
+article header:after {
+	display: none;
+}
+
+/* NSP adjustments */
+.nspArtPage .nspArt {
+	border-top: 1px solid #eee!important;
+	border-left: none!important;
+	padding-bottom: 20px!important;
+	padding-top: 20px!important;
+	width: 100%!important;
+}
+.nspArtPage .nspArt:first-child {
+	border-top: none!important;
+}
+
+/* other elements */
+article header h1, 
+.category header {
+	line-height: 32px;
+	padding: 18px 0 0px;
+}
+
+article header h1, 
+.category header, 
+article header h2 {
+	font-size: 24px;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2, 
+.componentheading,
+.category header h2 {
+	font-size: 28px;
+}
+
+article header h2 {
+	line-height: 32px;
+}
+
+article header ul {
+	margin: 0 0 10px 0;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+#gkSocialAPI {
+	overflow: hidden;
+}
+
+.cols-2 .column-2, 
+.cols-3 .column-3 {
+	padding: 0!important;
+}
+
+.itemComments .itemCommentsList li img {
+	float: left;
+	margin-left: 0;
+	margin-right: 10px;
+	position: static;
+}
+
+.itemComments .itemCommentsList li > div > * {
+	clear: both;
+	display: block;
+	width: 100%;
+}
+
+.itemComments .itemCommentsList li > div > * a {
+	float: left;
+}
+
+.itemCommentsList li h3 {
+	float: none;
+	margin-top: 5px;
+}
+
+.itemCommentsForm .itemCommentsFormNotes {
+	margin-top: 5px!important;
+}
+
+#gkMainbody .registration {
+	width: 100%;
+}
+
+#article-index {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: none!important;
+	margin: 0!important;
+	width: 100%!important;
+}
+
+/* NSP */
+.box.header .nspImageWrapper h4 {
+	font-size: 14px!important;
+}
+
+.nspArts,
+.nspLinksWrap {
+	clear: both;
+	float: left!important;
+	width: 100%!important;
+}
+
+/* Footer */
+
+#gkFooterNav li {
+	float: none;
+	line-height: 3.0;
+}
+
+/* K2 fixes */
+.itemBody.containsItemInfo, 
+.itemOtherElements.containsItemInfo,
+.itemListView .itemBlock.containsItemInfo,
+.itemExtraFields ul li span.itemExtraFieldsValue,
+.itemLinks .itemCategory a, 
+.itemLinks .itemTagsBlock ul {
+	margin-left: 0!important;
+}
+
+aside.itemAsideInfo {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 20px 0!important;
+	position: static!important;
+	width: 100%!important;
+}
+
+.itemCommentsList li > div > div > span {
+	clear: both;
+	display: block;
+}
+
+.itemCommentsList li > div {
+	margin-left: 0!important;
+	padding-left: 0!important;
+}
+
+.itemComments h3 {
+	font-size: 30px;
+	padding: 30px 0 0;
+}
+
+.items-row > div {
+	margin-bottom: 30px;
+	padding: 0!important;
+}
+
+article header h1,
+article header h2 {
+	font-size: 24px!important;
+	line-height: 1.2;
+}
+
+.genericView .itemView {
+	padding: 0!important;
+	width: 100%!important;
+}
+
+.itemAuthorDetails {
+	clear: both;
+	margin-left: 0!important;
+}
+
+.itemAuthorData {
+	padding: 16px;
+}
+
+.itemAuthorData img {
+	display: block;
+	margin: 0 0 20px 0;
+}
+
+.itemAuthorData h3 {
+	padding-top: 10px;
+}
+
+.itemTags {
+	clear: both;
+	margin: 10px 0;
+}
+
+/* Other */
+.gkPriceTable {
+	padding: 20px 0;
+}
+
+.gkPriceTable dl {
+	margin: 20px auto!important;
+	width: 100%!important;
+}
+
+article header {
+	margin-bottom: 15px;
+}
+
+article header.itemHasImage h1,
+article header.itemHasImage h2 {
+	bottom: 10px;
+	font-size: 16px!important;
+}
+
+#gkPopupLogin {
+	margin-left: -150px;
+	top: 20px;
+	width: 300px;
+}
+
+.gkPopupWrap {
+	padding: 15px;
+}
+
+span#fb-auth {
+	margin: 5px 0 0 3px;
+}
+
+.gkContactForm > div,
+.gkContactForm > form {
+	clear: both;
+	float: none;
+	margin: 20px 0;
+	width: 100%!important;
+}
+
+.breadcrumbs > ul > li {
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+.breadcrumbs li.separator {
+	padding: 0 5px!important;
+}
+
+.gkPopupWrap h3 {
+	font-size: 25px;
+	margin: 0 0 10px 0;
+}
+
+#form-login-remind {
+	margin-top: 25px;
+}
+
+/* Header */
+#gkLogo.cssLogo {
+	background-size: contain!important;
+	height: 80px;
+	margin: 0!important;
+	top: 10px;
+	width: 80px;
+}
+
+.custom.gk-header1 > div:first-child {
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+.gk-header1 .gk-tablet {
+	display: none;
+}
+
+.custom.gk-header1, 
+.custom.gk-header2, 
+.custom.gk-header3 {
+	padding-top: 130px;
+}
+
+.custom.gk-header2 {
+	padding-bottom: 100px;
+}
+
+.gk-header2 h1 {
+	font-size: 32px;
+}
+.custom.gk-header3 {
+	padding: 100px 120px 80px 120px;
+}
+.gk-header3 .gk-avatar img {
+	width: 33%;
+}
+.gk-header3 .gk-avatar {
+	width: 280px;
+}
+.gk-header3 h1 {
+	font-size: 32px;
+}
+
+/* Frontpage */
+.box.imagebg h3 {
+	font-size: 16px;
+	padding: 10px;
+}
+.gkCols > div,
+.gkCols > blockquote {
+	width: 100%!important;
+}
+.box.image-left .image-left > div,
+.box.image-right .image-right > div {
+	width: 100%;
+}
+.box.image-left .image-left > img,
+.box.image-right .image-right > img {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	max-width: 50%;
+}
+.box.image-right .image-right > img + div {
+	margin-top: 30px;
+}
+.color-bg > div > small {
+	position: static;
+}
+img.to-bottom {
+	position: relative;
+	top: 40px;
+}
+.gk-list {
+	width: 280px;
+}
+.itemAsideInfo {
+	margin-bottom: 20px;
+	width: 100%;
+}
+.itemAsideInfo + .itemBody {
+	width: 100%;
+}
+.itemList .itemAsideInfo .itemDate {
+	float: left;
+}
+.itemList .itemAsideInfo .itemRatingBlock {
+	float: right;
+	margin-top: -28px;
+}
+.itemList .itemAsideInfo .itemCategory,
+.itemList .itemAsideInfo .itemComments,
+.itemList .itemAsideInfo .itemHitsBlock {
+	display: none;
+}
+.box.newsletter p {
+	line-height: 1.6;
+}
+.box.newsletter input[type="email"] {
+	font-size: 14px;
+	padding: 0 10px;
+	width: 190px;
+}
+#gkHeader {
+	min-height: 100px;
+}
+#gkCopyrights {
+	display: block;
+	width: 100%;
+}
+#gkFooter > div > div {
+	display: block;
+	margin-top: 20px;
+}
+
+.contact-form dl {
+	width: 100%;
+}
+.contact .contact-image {
+	float: left !important;
+}
+.contact .contact-address {
+	clear: both !important;
+	padding-top: 20px !important;
+}
+.contact .contact-form input,
+.contact .contact-form textarea {
+	width: 100% !important;
+}
+
+.contact .contact-form input[type="text"], 
+.contact .contact-form input[type="email"],
+.contact .contact-form textarea {
+	width: 100% !important;
+}
+.single-item {
+	padding-top: 40px;
+}

@@ -1,0 +1,279 @@
+/*
+#------------------------------------------------------------------------
+# Mo - January Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+ 
+/* Style 1 */
+
+/* template.css */
+a,
+#gkMainMenu div.childcontent a:active,
+#gkMainMenu div.childcontent a:focus,
+#gkMainMenu div.childcontent a:hover,
+article header h1 a:hover,
+article header h2 a:hover,
+.pane-sliders .panel h3 a:hover {
+	color: #384349;
+}
+#gkHeader {
+	background: #84cbc5;
+}
+
+#gkFooter li a:active,
+#gkFooter li a:focus,
+#gkFooter li a:hover {
+	color: #ffd200;
+}
+#gkSidebar .box li a:hover {
+	color: #76acfc;
+}
+.box.dark a:active,
+.box.dark a:focus,
+.box.dark a:hover {
+	color: #76acfc!important;
+}
+.box.color {
+	background: #76acfc!important;
+}
+.box.color-title .header {
+	color: #84CBC5;
+}
+.box.imagebg h3 {
+	background: #ffc228;
+}
+.box.light-color-bg {
+	background: #f3f8ff;
+}
+.box.color-bg {
+	background: #76acfc;
+	color: #292c30;
+}
+.box.color-bg sup {
+	color: #FAD260;
+}
+
+/* joomla.css */
+button,
+.button,
+.readon,
+.button.inverse:active,
+.button.inverse:focus,
+.button.inverse:hover,
+input.button,
+span.button,
+button.button,
+div.button,
+.readmore a,
+input[type="submit"],
+input[type="button"],
+.item-page.edit .btn {
+	background: #84CBC5;
+}
+button:hover,
+.button:hover,
+.readon:hover,
+.readmore a:hover,
+.button.inverse,
+input.button:hover,
+span.button:hover,
+button.button:hover,
+div.button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.item-page.edit .btn:hover {
+	background: #292b31;
+}
+.button.color1,
+.readon.color1 {
+	background: #76acfc;
+}
+th {    
+    background: #f3f8ff;
+}
+th a:active,
+th a:focus,
+th a:hover {
+	color: #76acfc!important;
+}
+.itemAsideInfo a:hover { color: #F47264;}
+article header a:hover { color: #F47264}
+.tooltip-inner strong {
+	background: #76acfc;
+}
+#system-message .alert-error {
+	background: #f47264;
+}
+#system-message .alert-notice {
+	background: #fad260;
+}
+.autocompleter-queried {
+	color: #76acfc!important
+}
+
+/* gk_stuff.css */
+ .nspPagination li:hover,
+.nspPagination li.active { background-color: #84CBC5; }
+.nspNext:hover:after,
+.nspPrev:hover:after { color: #84CBC5; }
+.box.dark a.readon:hover {
+	color: #76acfc!important;
+}
+.box.color .nspArt .readon {
+	color: #76acfc!important;
+}
+.gkTabsWrap ol li {
+	background: #84CBC5;
+}
+.gk-header1 a {
+	background: #f47264;
+}
+.gk-header1 a:active, 
+.gk-header1 a:focus, 
+.gk-header1 a:hover {
+	background: #222
+}
+.gk-header2 a {
+	background: #84cbc5;
+}
+.gk-header2 a:active,
+.gk-header2 a:focus,
+.gk-header2 a:hover { background: #f47264; }
+.box.newsletter {
+	background: #f3f8ff;
+}
+.gkCols + .button {
+	background: #76acfc;
+}
+.testimonials > blockquote > p {
+	color: #8e9798;
+}
+.gk-point h4:before {
+	background: #f47264;
+}
+.gk-big-btn {
+	background: #84cbc5;
+}
+.gk-big-btn:hover {
+	background: #f47264;
+}
+.gk-big-icon {
+	color: #f47264;
+}
+.icon-color1 { color: #fa7960; }
+.icon-color2 { color: #fad260; }
+.icon-color3 { color: #84cbc5; }
+.box .gk-list li:before {
+	border: 2px solid #d9dce1;
+	color: #d9dce1;
+}
+.box .gk-list li.color-red:before {
+	border-color: #fa7960;
+	color: #fa7960;
+}
+.box .gk-list li.color-yellow:before {
+	border-color: #fad260;
+	color: #fad260;
+}
+.box .gk-list li.color-green:before {
+	border-color: #84cbc5;
+	color: #84cbc5;
+}
+.box .gk-list li.color-blue:before {
+	border-color: #76acfc;
+	color: #76acfc;
+}
+.gkPriceTable dl.gkPremium {
+	border: 2px solid #84cbc5;
+}
+.gkPriceTable dd a {
+	background: #84cbc5;
+}
+
+/* menu.css */
+#gkMainMenu .gkMenu > ul > li > a {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+#gkMainMenu .gkMenu a:hover,
+#gkMainMenu .gkMenu a:active,
+#gkMainMenu .gkMenu a:focus,
+#gkMainMenu .gkMenu li.active > a {
+	color: #ffd200;
+}
+#close-menu {
+	color: #fff;
+}
+#aside-menu li a.active,
+#aside-menu li a:active,
+#aside-menu li a:focus,
+#aside-menu li a:hover {
+	color: #fff;
+  background-image: url(../images/prev_activ.png);
+background-position: 95% center;
+background-repeat: no-repeat;
+  display: block;
+}
+
+/* k2.css */
+.k2FeedIcon:before {
+	color: #fad260;
+}
+.activeCategory a { color: #76acfc }
+h1 > sup,
+h2 > sup {
+	background: #76acfc;
+}
+span#formLog {
+	color: #FAD260;
+}
+.itemAuthorURL a:hover {
+	color: #f47264!important;
+}
+.itemAuthorData {
+	background: #f3f8ff;
+}
+.itemRelatedContent { background: #f3f8ff; }
+.itemCommentsForm #submitCommentButton {
+	background: none;
+  -webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+  border: 2px #384349 solid;
+  color: #384349 !important;
+  height: 34px;
+line-height: 30px;
+width: 100%;
+}
+.itemCommentsForm #submitCommentButton:hover {
+	background: #ffd200;
+    border-color:#ffd200;
+  	color: #fff!important;
+}
+.itemComments .itemCommentsList li span:first-child {
+	color: #ffd200;
+}
+a.commentLink { color: #384349; }
+a.commentLink:hover { color: #ffd200; }
+.k2CalendarBlock table.calendar tr td.calendarDateLinked a:hover {
+	background: #76acfc;
+}
+.k2CalendarBlock table.calendar tr td.calendarToday {
+	background: #76acfc;
+}
+.k2CalendarBlock table.calendar tr td.calendarTodayLinked {
+	background: #f5f5f5;
+}
+table.calendar tr td.calendarTodayLinked a {
+	color: #76acfc;
+}
+.k2CalendarBlock table.calendar tr td.calendarTodayLinked a:hover {
+	background: #76acfc;
+}
+.calendarNavLink { color: #76acfc; }
+.k2TagCloudBlock a:hover { color: #76acfc }

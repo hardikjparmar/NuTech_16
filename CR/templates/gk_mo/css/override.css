@@ -1,0 +1,247 @@
+/*
+#------------------------------------------------------------------------
+# Mo - January Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2013 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+/* Here you can include your override CSS styles */
+
+/* Large desktop */
+@media (min-width: 1660px) {
+    .brendnew {
+    font-size: 6.250em;
+  }
+  .block_onas {
+   padding-bottom: 40px;
+   margin-top: -400px;
+  }
+  .zVideoLink {
+    top: 300px;
+  }
+    .head_bg1 {
+	top: 25%;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1300px) and (max-width: 1659px) { 
+  .brendnew {
+    font-size: 4.250em;
+  }
+  .block_onas {
+   padding-bottom: 20px;
+   margin-top: -350px;
+  }
+  .zVideoLink {
+    top: 200px;
+  }
+  .menutext_up {
+   right: 90px;
+  }
+  #zContact .rec {
+  width: 100% !important;
+  float: none !important;
+  }
+  #gkMainMenu .menu > li > a {
+padding: 0 10px;
+} 
+
+  .head_bg1 {
+	top: 25%;
+  }
+  
+}
+ 
+/* mini desktop */
+@media (min-width: 980px) and (max-width: 1299px) { 
+  .brendnew {
+    font-size: 4.250em;
+  }
+  .block_onas {
+   padding-bottom: 10px;
+   margin-top: -250px;
+  }
+  .zVideoLink {
+    top: 100px;
+  }
+   .brend_slogan {
+    font-size: 1.1em;
+   }
+   #zContact .formcontact {
+    clear: both;
+  width: 100% !important;
+  float: none !important;
+  }
+  
+.karta {
+min-height: 1300px;
+}
+      .zMapbody {
+    padding-left: 0px;
+    padding-right: 8%;
+}
+  
+#gkMainMenu .menu > li > a {
+padding: 0 5px;
+} 
+  .menutext_up {
+right: 60px;
+}
+.head {
+font-size: 18px;
+}
+
+  .head_bg1 {
+top: 25%;
+margin-left: -300px;
+width: 600px;
+height: 250px;
+}
+.head_bg2 {
+top: 10px;
+margin-left: -290px;
+width: 580px;
+height: 230px;
+}  
+  
+  
+  
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+  .brendnew {
+    font-size: 4.250em;
+  }
+  .block_onas {
+   padding-bottom: 10px;
+   margin-top: -200px;
+  }
+  .zVideoLink {
+    top: 20px;
+  }
+  .brend_slogan {
+    font-size: 18px;
+   }
+    #zContact .formcontact {
+    clear: both;
+  width: 100% !important;
+  float: none !important;
+  }
+  .karta {
+min-height: 1300px;
+}
+  .zMapbody {
+    padding-left: 0px;
+    padding-right: 8%;
+}
+  
+  .head {
+font-size: 18px;
+}
+
+  .head_bg1 {
+top: 25%;
+margin-left: -350px;
+width: 700px;
+height: 170px;
+}
+  .head_bg2 {
+top: 10px;
+margin-left: -340px;
+width: 680px;
+height: 152px;
+}
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+  #zContact .formcontact {
+    clear: both;
+  width: 100% !important;
+  float: none !important;
+  }
+  
+  .karta {
+min-height: 1300px;
+}
+  #zContact {
+position: absolute;
+z-index: 1;
+bottom: 10px;
+width: 100%;
+margin-left: 0;
+left: 0;
+}
+    .zMapbody {
+    padding-left: 0px;
+    padding-right: 8%;
+}
+  
+  .head {
+font-size: 18px;
+}
+
+    .head_bg1 {
+top: 25%;
+margin-left: -350px;
+width: 700px;
+height: 170px;
+}
+  .head_bg2 {
+top: 10px;
+margin-left: -340px;
+width: 680px;
+height: 152px;
+}
+      .head_bg1{
+		display: none;
+			} 
+  
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+  #zContact .rec, #zContact .formcontact {
+  width: 100% !important;
+  float: none !important;
+  }
+.karta {
+min-height: 1300px;
+}
+        .zMapbody {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+  
+  #zContact {
+position: absolute;
+z-index: 1;
+bottom: 10px;
+width: 100%;
+margin-left: 0;
+left: 0;
+}
+  .socblock {text-align: center;}
+  .head {
+font-size: 18px;
+}
+.head_bg1 {
+display: none;
+  }
+  
+ .reveal-modal-zakaz {
+max-width: 300px !important;
+min-width: 300px !important;
+  }
+.reveal-modal-zakaz .close-reveal-modal {
+top: -10px !important;
+right: -20px !important;
+  }
+
+}
