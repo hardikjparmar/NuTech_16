@@ -18,7 +18,7 @@ li [class^=icon-],li [class*=" icon-"]{display:inline-block;width:1.25em;text-al
 .csstransforms .cn-wrapper {
   font-size: 18px;
   width: 42.0em;
-  height: 41.6em;
+  height: 10em;
   overflow: hidden;
   position: fixed;
   z-index: 10;
@@ -169,7 +169,7 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 }
 
 .csstransforms .cn-wrapper li:nth-child(even) a {
-  
+
   background-color: #FFC107;
 }
 
@@ -190,7 +190,7 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 {
     position:fixed;
 }
- 
+
 
 /* fallback */
 .no-csstransforms .cn-button {
