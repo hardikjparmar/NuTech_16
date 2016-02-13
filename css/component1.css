@@ -18,7 +18,7 @@ li [class^=icon-],li [class*=" icon-"]{display:inline-block;width:1.25em;text-al
 .csstransforms .cn-wrapper {
   font-size: 18px;
   width: 42.0em;
-  height: 10em;
+  height: 40em;
   overflow: hidden;
   position: fixed;
   z-index: 10;
