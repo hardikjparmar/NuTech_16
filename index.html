@@ -617,12 +617,13 @@ SETTINGS IN theme.settings.js:
   <button class="cn-button" id="cn-button" style="z-index: 9002">-</button>
   <div class="cn-wrapper opened-nav" id="cn-wrapper" style="z-index: 9001;">
    <ul>
-
-     <li title="Campus Representative" ><a href="CR/index.html" target="_blank" onclick="$('#cn-button').click()"><span class="icon-facetime-video"></span></a></li>
-     <li title="Workshops"><a href="workshop/index.html" onclick="$('#cn-button').click()"><span class="fa fa-briefcase"></span></a></li>
-     <li title="Home"><a href="#" onclick="$('#cn-button').click()"><span   class="icon-home"></span></a></li>
+       
+<!--       monkey patching this shit  -->
+     <li style="visibility:hidden" title="Workshops"><a href="workshop/index.html" onclick="$('#cn-button').click()"><span class="fa fa-briefcase"></span></a></li>
+       <li title="Workshops"><a href="workshop/index.html" onclick="$('#cn-button').click()"><span class="fa fa-briefcase"></span></a></li>
+           <li title="Home"><a href="#" onclick="$('#cn-button').click()"><span   class="icon-home"></span></a></li>
      <li title="Events List" ><a href="event/index.html" onclick="$('#cn-button').click()"><span  class="icon-th-list"></span></a></li>
-     <li title="Contact"><a href="index.html#contact" onclick="$('#cn-button').click()"><span class="icon-phone-sign"></span></a></li>
+
    </ul>
  </div>
  <div id="cn-overlay" class="cn-overlay on-overlay"></div>

@@ -9,7 +9,7 @@
 	<!-- Basic Page Needs
 	================================================== -->
 	<meta charset="utf-8">
-	<title>NU-Tech'15 : Events</title>
+	<title>NU-Tech'16 : Events</title>
   <meta name="description" content="Institute of Technology, Nirma Unviversity's Techfest governed by the NU-Tech Committee"/>
   <meta name="keywords" content="Tech, Fest, Competitions, Contest"/>
   <meta name="author" content="mailto:12bit061@nirmauni.ac.in"/>
@@ -755,17 +755,23 @@
 
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- Start Nav Structure -->
-	<button class="cn-button" id="cn-button">+</button>
-	<div class="cn-wrapper" id="cn-wrapper">
-		<ul>
-			<li title="Campus Representative" ><a href="../CR/index.html" target="_blank"><span class="icon-group"></span></a></li>
-     <li title="Workshops"><a href="../workshop/index.html"><span class="icon-briefcase"></span></a></li>
-			<li title="Home"><a href="../index.html"><span   class="icon-home"></span></span></a></li>
-			<li title="Events"><a href="#"><span><span  class="icon-th-list"></span></a></li>
-			<li title="Contact"><a href="../index.html#contact"><span class="icon-phone-sign"></span></a></li>
-		</ul>
-	</div>
-	<div id="cn-overlay" class="cn-overlay"></div>
+	<div id="menubar">
+  <!-- Start Nav Structure -->
+  <button class="cn-button" id="cn-button" style="z-index: 9002">-</button>
+  <div class="cn-wrapper opened-nav" id="cn-wrapper" style="z-index: 9001;">
+   <ul>
+       
+<!--       monkey patching this shit  -->
+     <li style="visibility:hidden" title="Workshops"><a href="workshop/index.html" onclick="$('#cn-button').click()"><span class="fa fa-briefcase"></span></a></li>
+       <li title="Workshops"><a href="workshop/index.html" onclick="$('#cn-button').click()"><span class="fa fa-briefcase"></span></a></li>
+           <li title="Home"><a href="#" onclick="$('#cn-button').click()"><span   class="icon-home"></span></a></li>
+     <li title="Events List" ><a href="event/index.html" onclick="$('#cn-button').click()"><span  class="icon-th-list"></span></a></li>
+
+   </ul>
+ </div>
+ <div id="cn-overlay" class="cn-overlay on-overlay"></div>
+ <!-- End Nav Structure -->
+</div>
 	<!-- End Nav Structure -->
 	<script src="js/polyfills.js"></script>
 	<script src="js/demo1.js"></script>
