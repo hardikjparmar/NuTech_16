@@ -136,8 +136,8 @@ li [class^=icon-],li [class*=" icon-"]{display:inline-block;width:1.25em;text-al
 }
 
 .csstransforms .cn-wrapper li a span {
-  font-size: 1.1em;
-  opacity: 0.7;
+  font-size: 1.6em;
+  opacity: 0.9;
 }
 
 /* for a central angle x, the list items must be skewed by 90-x degrees
