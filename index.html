@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <!-- Optional: Include the jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ 
+     <script src="scripts/prefixfree.min.js"></script>
   <!-- Optional: Incorporate the Bootstrap JavaScript plugins -->
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -94,14 +96,17 @@
     <div id="page-wrapper">
      <!-- START BANNER SECTION -->
      <section id="banner" class="section video-background" style="height: 100%; background-position: 50% 0px;">
+         <canvas id="c"></canvas>
      <br/><br/>
-     <div style="padding-left:70%;z-index:1000;position: relative;"><a href="http://www.nu-tech.in/paper.html" target="_blank"><img src="paper.png" style="width:100%"></img></a></div>
      <br/><br/>
-     <div style="padding-left:70%;z-index:1000;position: relative;"><a href="#" target="_blank"><img src="isrosite.png" style="width:50%"></img></a></div>
+     
      <br/><br/><br/><br/>
-     <!-- START ROW -->
-     <div style="position:absolute;margin-left:80%;bottom:30px;"><a href="Schedule_NUTECH2k15.pdf" target="_blank"><img style="width:75%" src="tensch.png"></img></a></div>
+     <div style="position:absolute;margin-left:80%;bottom:30px;"><a href="Schedule_NUTECH2k15.pdf" target="_blank"><img style="width:75%" src="tensch.png">
+         </img>
+         </a>
+         </div>
      <div class="banner-container" style="top: 2%;">
+         
         <img src="images/layout/Untitled-1.png" style="width:14%;height:400px;" alt="NU-Tech" />
       
       <span class="small-text"  style="font-size: 18px;margin-top: -20px">
@@ -115,16 +120,7 @@
           <a href="https://play.google.com/store/apps/details?id=com.itnu.nutech" target="_blank" title="Android"><img src="images/menu/a.png" style="height: 55px; width: 55px;" /></a>
           </div>
       </span>
-   </div><!-- END ROW -->
- <!-- START SCROLL DOWN BUTTON -->
-   <div class="scroll-down">
-    <a href="online_form.pdf" target="_blank">Register Here</a>
-  </div><!-- END SCROLL DOWN BUTTON -->
-
- <!--  <video poster="videos/video-background-poster" autoplay loop muted __idm_id_="172033">
-       <source src="hyper-loop.mp4" type="video/mp4" />
-       Your browser does not support the video tag.
-      </video> -->
+        </div>
 
   <!-- START MAXIMAGE SLIDER -->
   <div id="maximage-slider">
@@ -228,8 +224,6 @@
 </div><!-- END ROW -->
 </div><!-- END HEADLINE WRAPPER -->
 
-
-<!-- START WRAPPER -->
 <div id="work-wrapper">
   <div class="close">
     <a id="close-work-wrapper"></a>
@@ -638,5 +632,6 @@ SETTINGS IN theme.settings.js:
 
 <script src="scripts/polyfills.js"></script>
 <script src="scripts/demo1.js"></script>
+<script src="scripts/canvas.js"></script>
 </body>
 </html>
