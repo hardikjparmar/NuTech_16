@@ -125,10 +125,10 @@ li [class^=icon-],li [class*=" icon-"]{display:inline-block;width:1.25em;text-al
   color: #fff;
   padding-top: 1.8em;
   text-align: center;
-  -webkit-transform: skew(-50deg) rotate(-70deg) scale(1);
-  -ms-transform: skew(-50deg) rotate(-70deg) scale(1);
-  -moz-transform: skew(-50deg) rotate(-70deg) scale(1);
-  transform: skew(-50deg) rotate(-70deg) scale(1);
+  -webkit-transform: skew(-30deg) rotate(-60deg) scale(1);
+  -ms-transform: skew(-30deg) rotate(-60deg) scale(1);
+  -moz-transform: skew(-30deg) rotate(-60deg) scale(1);
+  transform: skew(-30deg) rotate(-60deg) scale(1);
   -webkit-backface-visibility: hidden;
   -webkit-transition: opacity 0.3s, color 0.3s;
   -moz-transition: opacity 0.3s, color 0.3s;
