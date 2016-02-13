@@ -114,7 +114,6 @@ li [class^=icon-],li [class*=" icon-"]{display:inline-block;width:1.25em;text-al
 
 .csstransforms .cn-wrapper li a {
   display: block;
-  font-size: 1.18em;
   height: 14.5em;
   width: 14.5em;
   position: absolute;
