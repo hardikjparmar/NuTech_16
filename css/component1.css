@@ -140,8 +140,7 @@ li [class^=icon-],li [class*=" icon-"]{display:inline-block;width:1.25em;text-al
 }
 
 /* for a central angle x, the list items must be skewed by 90-x degrees
-in our case x=40deg so skew angle is 50deg
-items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
+in our case x=60deg so skew angle is 30deg */
 
 .csstransforms .cn-wrapper li:first-child {
   -webkit-transform: rotate(0deg) skew(30deg);
