@@ -3,7 +3,7 @@ row gutters/*
 
 	1. DOCUMENT SETUP
 	  1.1 PAGE PRELOADER
-	2. POSITIONING, MARGIN AND PADDING	
+	2. POSITIONING, MARGIN AND PADDING
 	3. WRAPPER
    	  3.1 PARALLAX
    	  3.2 VIDEO
@@ -408,7 +408,7 @@ body {
     -o-animation-duration: 2s;
     -ms-animation-duration: 2s;
     animation-duration: 2s;
-	
+
 }
 #banner .scroll-down a:hover {
     border: 2px solid #EDC124;
@@ -1070,6 +1070,3 @@ body {
 .shortcode-social a {
 	margin-bottom: 10px !important;
 }
-
-
-

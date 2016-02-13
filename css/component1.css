@@ -17,15 +17,15 @@ li [class^=icon-],li [class*=" icon-"]{display:inline-block;width:1.25em;text-al
 
 .csstransforms .cn-wrapper {
   font-size: 18px;
-  width: 42.0em;
-  height: 40em;
+  width: 25em;
+  height: 25em;
   overflow: hidden;
   position: fixed;
   z-index: 10;
   bottom: -28em;
   left: 50%;
-  border-radius: 50%;
-  margin-left: -20.8em;
+  border-radius: 0%;
+  margin-left: -12.3em;
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   -moz-transform: scale(0);
@@ -37,8 +37,8 @@ li [class^=icon-],li [class*=" icon-"]{display:inline-block;width:1.25em;text-al
 }
 
 .csstransforms .opened-nav {
-  border-radius: 50%;
-  bottom:-7.8em;
+  border-radius: 0%;
+  bottom:0em;
   pointer-events: auto;
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
