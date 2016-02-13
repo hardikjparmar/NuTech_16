@@ -45,7 +45,7 @@
 					<h2 class="bl-icon bl-icon-works">NU-Tech'16: Workshop</h2>
 					<p>Click to Continue..!!!</p>
 					<!-- Start Nav Structure -->
-					<button class="cn-button" id="cn-button">+</button>
+					<!--<button class="cn-button" id="cn-button">+</button>
 					<div class="cn-wrapper" id="cn-wrapper">
 						<ul>
 							<li title="Campus Representative" ><a href="../CR/index.html" target="_blank"><span class="icon-group"></span></a></li>
@@ -56,7 +56,7 @@
 						</ul>
 					</div>
 					<div id="cn-overlay" class="cn-overlay"></div>
-					<!--End Nav Structure -->
+					End Nav Structure -->
 				</div>
 				<div class="bl-content">
 					<h2>NU-Tech'16: Workshop</h2>
@@ -222,6 +222,23 @@
 		</div>
 	</div><!-- /container -->
 
+	<div id="menubar">
+	  <!-- Start Nav Structure -->
+	  <button class="cn-button" id="cn-button" style="z-index: 9002">-</button>
+	  <div class="cn-wrapper opened-nav" id="cn-wrapper" style="z-index: 9001;">
+	   <ul>
+
+	<!--       monkey patching this shit  -->
+	     <!-- <li style="visibility:hidden" title="Workshops"><a href="workshop/index.html" onclick="$('#cn-button').click()"><span class="fa fa-briefcase"></span></a></li>-->
+	       <li title="Workshops"><a href="workshop/index.html" onclick="$('#cn-button').click()"><span class="fa fa-briefcase"></span></a></li>
+	           <li title="Home"><a href="#" onclick="$('#cn-button').click()"><span   class="icon-home"></span></a></li>
+	     <li title="Events List" ><a href="event/index.html" onclick="$('#cn-button').click()"><span  class="icon-th-list"></span></a></li>
+
+	   </ul>
+	 </div>
+	 <div id="cn-overlay" class="cn-overlay on-overlay"></div>
+	 <!-- End Nav Structure -->
+	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="js/boxlayout.js"></script>
