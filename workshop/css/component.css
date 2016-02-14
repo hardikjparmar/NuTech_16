@@ -171,11 +171,6 @@ a:hover {
 	content: "\e005";
 }
 
-.bl-content
-{
-	color: #E05A2B;
-}
-
 .bl-content,
 div.bl-panel-items > div > div {
 	opacity: 0;
