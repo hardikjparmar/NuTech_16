@@ -21,7 +21,7 @@ input.submit,
 .maximage-next:hover,
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active,
 .bx-wrapper .bx-controls-direction a:hover {
-    background-color: rgba(237,193,36,.7);
+    background-color: #FFD700;
 }
 
 .button:hover,
