@@ -171,7 +171,12 @@ a:hover {
 	content: "\e005";
 }
 
-.bl-content, 
+.bl-content
+{
+	color: #E05A2B;
+}
+
+.bl-content,
 div.bl-panel-items > div > div {
 	opacity: 0;
 	pointer-events: none;
@@ -230,7 +235,7 @@ div.bl-panel-items > div > div {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-} 
+}
 
 .bl-content > ul li {
 	display: inline-block;
@@ -387,16 +392,16 @@ div.bl-panel-items > div.bl-hide-current-work {
 }
 
 .bl-main > section:first-child.bl-expand {
-	background: #48A65B;
+	background: #77216F;
 }
 .bl-main > section:nth-child(2).bl-expand {
-	background: #F98262;
+	background: #E05A2B;
 }
 .bl-main > section:nth-child(3).bl-expand {
-	background: #4BBE8E;
+	background: #924D8B;
 }
 .bl-main > section:nth-child(4).bl-expand {
-	background: #0D8278;
+	background: #AD79A8;
 }
 
 .bl-main.bl-expand-item > section:not(.bl-expand),
